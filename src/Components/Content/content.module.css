@@ -185,7 +185,7 @@
   width: 80%;
 }
 
-.innerSection3 h1 {
+.innerSection3 h1 , .innerSection4 h1 {
   height: auto;
   width: 100%;
   text-align: center;
@@ -207,9 +207,72 @@
 
 .cardBox {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 1.5rem; /* space between cards */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem; 
   padding: 2rem;
+}
+
+/* Section 4 : Projects  */
+.section4 ,.section5
+{
+  background-color: #FBFCFC;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.innerSection4
+{
+  margin-top: 10vh;
+  width: 80%;
+  min-height: 100%;
+}
+
+/* Section 5 : Experience */
+.section5
+{
+  /* background-color: #F9FAFB; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerSection5
+{
+  margin-top: 10vh;
+  margin-left: 10vw;
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerSection5 h1
+{
+  margin-top: 10vh;
+  font-family: "Geologica", sans-serif;
+  font-style: normal;
+  color: #1f2937;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.expBox
+{
+  margin-top: 5vh;
+  height: 50vh;
+  gap: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
 }
 
 @media (max-width: 768px) {
@@ -271,9 +334,31 @@
     width: 80%;
     font-size: 1rem;
   }
+  .innerSection3 h1 ,.innerSection4 h1
+  {
+    width: 90%;
+    height: auto;
+  }
+  .innerSection3 , .innerSection4
+  {
+    width: 100%;
+  }
   .cardBox
   {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
+  .innerSection5
+  {
+    gap: 5vh;
+  }
+  .expBox
+  {
+    margin-top: 15vh;
+    gap: 5vh;
+    flex-direction: column;
+  }
 }
+
+

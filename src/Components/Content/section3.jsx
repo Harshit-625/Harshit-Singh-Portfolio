@@ -46,7 +46,7 @@ function Section3() {
       <div className={styles.innerSection3}>
         <h1>Skills & Expertise</h1>
         <div className={styles.cardBox}>
-          {skillData.map((data, index) => (
+        {skillData.map((data, index) => (
         <SkillCard
           key={index}
           icon={data.icon}
