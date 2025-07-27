@@ -1,0 +1,279 @@
+.main {
+  height: 200vh;
+  width: 100vw;
+  padding-top: 7vh;
+}
+
+.section1 {
+  background-color: #f9f8fd;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerSection1 {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deepSection1 {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deepSection1 .image {
+  width: 40vw;
+  height: 40vw;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 5px solid white;
+  box-shadow: 1px 8px 12px 1px rgb(206, 201, 201);
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.deepSection1 .content {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.blueGrad {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 68, 196, 1) 0%,
+    rgba(161, 74, 161, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.content h1,
+.content p,
+.content .buttonDiv {
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  color: #2e2e2e;
+  font-family: "Geologica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: #2e2e2e;
+  font-family: "Geologica", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.buttonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 25px;
+}
+
+.section1Buttons {
+  height: 10vh;
+  width: 10vw;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  font-family: "Geologica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.section1Buttons:nth-child(1) {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 68, 196, 1) 0%,
+    rgba(161, 74, 161, 1) 100%
+  );
+  color: white;
+}
+
+.section1Buttons:nth-child(2) {
+  background-color: white;
+  color: #1f2937;
+  border: 2px solid #1f293739;
+}
+
+.section1Buttons:hover {
+  transition: 0.2s ease-in;
+  scale: 1.05;
+  box-shadow: 0px 5px 5px 0px rgb(217, 216, 216);
+}
+
+.section1Buttons:nth-child(2):hover {
+  border-color: rgba(45, 68, 196, 0.677);
+}
+
+/* SECTION 2 : About Me  */
+.section2 {
+  background-color: white;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerSection2 {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  font-family: "Geologica", sans-serif;
+  font-style: normal;
+  color: #1f2937;
+}
+.innerSection2 h1 {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+.innerSection2 p {
+  font-size: 1.05rem;
+  font-weight: 150;
+  width: 60%;
+}
+
+/* Section 3  : Skills & Expertise */
+.section3 {
+  background-color: #f9f8fd;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerSection3 {
+  margin-top: 10vh;
+  height: 100%;
+  width: 80%;
+}
+
+.innerSection3 h1 {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(45, 68, 196, 1) 0%,
+    rgba(161, 74, 161, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cardBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1.5rem; /* space between cards */
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    height: 80vh;
+    display: flex;
+    align-items: start;
+  }
+  .innerSection1 {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .deepSection1 {
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+  }
+  .deepSection1 .image {
+    height: 300px;
+    width: 300px;
+  }
+  .mobileHideBr {
+    display: none;
+  }
+
+  .deepSection1 .content {
+    margin-top: 5vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .content h1,
+  .content p,
+  .buttonDiv {
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 3rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+  .buttonDiv button {
+    width: 50%;
+    height: 10vh;
+  }
+
+  .innerSection2 {
+    width: 100%;
+    height: 100%;
+  }
+  .innerSection2 p {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .cardBox
+  {
+    display: flex;
+    flex-direction: column;
+  }
+}

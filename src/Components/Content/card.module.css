@@ -1,0 +1,72 @@
+.skillCard
+{
+  background-color: #FDFEFE;
+  border-radius: 15px;
+  height: 35vh;
+  box-shadow: 0px 5px 10px 8px rgb(234, 234, 234);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skillCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.cardHeading
+{
+  display: flex;
+  margin-left: 15px;
+  gap: 1vw;
+  align-items: center;
+  margin-top: 3vh;
+  justify-content: center;
+}
+.icon
+{
+  font-size: 1.25rem;
+}
+.title
+{
+  height: auto;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(45, 68, 196, 1) 0%,
+    rgba(161, 74, 161, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Geologica", sans-serif;
+  font-style: normal;
+}
+
+.list
+{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2vh;
+  margin-left: 5vh;
+  margin-top: 3vh;
+  background-color: transparent;
+  
+}
+
+.listItem
+{
+  background-color: transparent;
+  color: #1b1e22;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Geologica", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.list li::marker {
+  color: #3b82f6; /* Bullet color */
+}
