@@ -8,9 +8,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Content />
+      <div style={{ flex: 1 }}>
+        <Content />
+      </div>
+      <Footer />
     </div>
   );
 }
+
 
 export default App;

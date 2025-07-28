@@ -178,7 +178,7 @@
 
 .expCard
 {
-  box-shadow:  1px 1px 2px 2px rgb(241, 239, 239);
+  box-shadow:  0px 1px 1px 1.5px rgb(241, 239, 239);
   background-color: #FFFFFF;
   width: 50%;
   border-radius: 15px;
@@ -207,9 +207,17 @@
 }
 .expHeading h3
 {
-  font-weight: 100;
-  color: blue;
+  font-weight: 200;
   text-transform: capitalize;
+background: linear-gradient(
+    90deg,
+    rgba(45, 68, 196, 1) 0%,
+    rgba(161, 74, 161, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 .explist
 {
@@ -238,12 +246,118 @@
   color: #3b82f6; 
 }
 
+a
+{
+  text-decoration: none;
+}
+.contactCard
+{
+  background-color: #FDFEFE;
+  border-radius: 10px;
+  padding: 6px;
+  height: 12vh;
+  width: 25vw;
+  box-shadow: 2px 6px 8px 4px whitesmoke;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding-left: 1vw ;
+  justify-content: start;
+  position: relative;
+  transition: 0.5s ease;
+
+}
+.contactCard:hover
+{
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contactCard:hover .extIcon
+{
+  transition: 0.5s ease;
+  display: flex;
+}
+.contactText
+{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contactText h2
+{
+  font-weight: 600;
+  font-size: 1.35rem;
+}
+.contactText h3
+{
+  font-weight: 300;
+  font-size: 1rem;
+  color: #4B5563;
+}
+.contactIcon
+{
+  width: 15%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.extIcon
+{
+  position: absolute;
+  display: none;
+  right: 10px;
+  top: 35px;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #3a4049;
+}
+
 @media (max-width: 768px) {
   .expCard
   {
     width: 100%;
-    height: 80%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 40vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .expHeading h2
+  {
+    font-size: 1.25rem;
+  }
+
+  .expHeading h3
+  {
+    font-size: 1rem;
+  }
+  .projectItem
+  {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  .contactCard
+  {
+    width: 100%;
+    gap: 3vw;
+    padding-left: 3vw;
+  }
+  .contactText h2
+  {
+    font-size: 1.2rem;
+  }
+  .contactText h3
+  {
+    font-size: 0.8rem;
   }
 }
+
+

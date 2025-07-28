@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 
+html, body, #root {
+  height: 100%;
+}
+
 body {
   line-height: 1;
   overflow-x: hidden;
 }
-
 
 :root {
   color-scheme: light;

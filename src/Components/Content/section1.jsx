@@ -12,7 +12,7 @@ function Section1() {
           </div>
           <div className={styles.content}>
             <h1>
-              Hi, I'm <span className={styles.blueGrad}>Harshit 
+              Hi, I'm <span className={styles.blueGrad}>Harshit &nbsp;
               <br className={styles.mobileHideBr}/>
               Singh</span>
             </h1>

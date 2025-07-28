@@ -28,7 +28,7 @@ const experiences = [
 function Section5()
 {
   return(
-    <div className={styles.Section5}>
+    <div className={styles.section5}>
       <div className={styles.innerSection5}>
         <h1>Professional Experience</h1>
           <div className={styles.expBox}>

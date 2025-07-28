@@ -38,9 +38,11 @@
   width: auto;
   display: flex;
   gap: 4%;
+  background-color: transparent;
 }
 
 .socialList div
 {
+  background-color: transparent;
   font-size: 10px;
 }
