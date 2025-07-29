@@ -3,13 +3,24 @@ import styles from "./content.module.css";
 
 function Section2() {
   return (
-  <div className={styles.section2}>
-    <div className={styles.innerSection2}>
-      <h1>About Me</h1>
-      <p>I’m Harshit Singh, a Data Analyst and Full Stack Web Developer with a strong focus on data-driven problem solving and modern web technologies. I hold a B.Tech in Computer Science Engineering from MERI College of Engineering and Technology. My work bridges the gap between data analysis and web development, using tools like Python, SQL, Excel, Tableau, and the MERN stack to deliver real-world solutions. <br /> <br/> <br/>
-      I enjoy uncovering insights through data, designing responsive interfaces, and building scalable web applications. I’m passionate about creating clean, efficient, and meaningful digital experiences that bring value to users and businesses alike.</p>
+    <div className={styles.section2}>
+      <div className={styles.innerSection2}>
+        <h1>About Me</h1>
+        <p>
+          I’m Harshit Singh — a Data Analyst and Full-Stack Web Developer with a
+          strong foundation in CSE and hands-on experience in transforming both
+          code and data into business-ready solutions.
+          <br />
+          <br />
+          <br />
+          Whether it's building dashboards with Python and Tableau, or deploying
+          scalable web apps with the MERN stack, I focus on solving real-world
+          problems through clean architecture, data-driven insights, and
+          responsive design.
+        </p>
+      </div>
     </div>
-  </div>)
+  );
 }
 
-export default Section2
+export default Section2;

@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./card.module.css";
 import { FiExternalLink } from "react-icons/fi";
-import { MdPhone, MdEmail } from 'react-icons/md';
 
 function ContactCard(props) {
   return (

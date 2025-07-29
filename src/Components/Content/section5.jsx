@@ -8,18 +8,18 @@ const experiences = [
     designation: "Business Analyst Intern",
     company: "Nestorbird",
     work: [
-      "Analyzed sales, marketing, and operations data using Excel and ERPNext.",
-      "Created interactive Tableau dashboards to visualize key business metrics.",
-      "Streamlined reporting workflows and improved data accuracy for teams.",
+      "Analyzed sales, marketing, and operations data using Excel and ERPNext, identifying key trends.",
+      "Built Tableau dashboards to monitor revenue, lead conversion, and inventory metrics.",
+      "Streamlined weekly reports, reducing manual effort by 30% through automation and templates.",
     ],
   },
   {
     designation: "Frontend Developer Intern",
     company: "Express Rupya Capital Advisors",
     work: [
-      "Built responsive web interfaces using React and Axios for seamless API integration.",
-      "Collaborated on UI/UX design improvements and component-based architecture.",
-      "Connected frontend forms to backend endpoints and displayed dynamic data.",
+      "Developed responsive frontend interfaces in React; integrated APIs using Axios.",
+      "Collaborated on UI/UX improvements and optimized reusable components.",
+      "Connected forms to backend services, enabling dynamic data capture and validation.",
     ],
   },
 ];

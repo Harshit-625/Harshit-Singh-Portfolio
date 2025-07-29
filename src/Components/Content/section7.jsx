@@ -38,7 +38,7 @@ const Contacts = [
 ]
 function Section7() {
   return (
-  <div className={styles.section7}>
+  <div className={styles.section7} id="contact">
     <div className={styles.innerSection7}>
       <h1>Get in Touch</h1>
       <div className={styles.contactGrid}>

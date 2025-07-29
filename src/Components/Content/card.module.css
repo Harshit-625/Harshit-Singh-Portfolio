@@ -2,7 +2,8 @@
 {
   background-color: #FDFEFE;
   border-radius: 15px;
-  height: 35vh;
+  height: auto;
+  padding-bottom: 3vh;
   box-shadow: 0px 5px 10px 8px rgb(234, 234, 234);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

@@ -8,7 +8,7 @@ function Section6() {
       <h1>Education</h1>
       <div className={styles.edCard}>
         <h1>Bachelors of Technology (B.Tech)</h1>
-        <h2>Maharishi Dayanand University | 2021-25 </h2>
+        <h2>Maharishi Dayanand University | MERI College of Engineering and Technology | 2021-2025</h2>
         <h3>Specialization: Computer Science</h3>
       </div>
     </div>

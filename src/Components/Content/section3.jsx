@@ -10,35 +10,37 @@ import { AiFillHeart } from "react-icons/ai";
 
 const skillData = [
   {
-    icon: <FaReact size={25} color="#DB2777"/>,
+    icon: <FaReact size={25} color="#DB2777" />,
     title: "Web Development",
-    skills: ["HTML", "CSS", "JS", "MERN Stack", "SQL"],
+    skills: ["HTML5", "CSS3", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "SQL", "EJS"],
   },
   {
-    icon: <MdAnalytics color="#2A5241" size={25}/>,
-    title: "Data Analysis And Visualization",
-    skills: ["Python" , "SQL" , "Excel" , "Tableau"],
+    icon: <MdAnalytics color="#2A5241" size={25} />,
+    title: "Data Analysis & Visualization",
+    skills: ["Python (Pandas, Matplotlib, Seaborn)", "SQL", "Excel", "Tableau", "ERPNext"],
   },
   {
-    icon: <GoGitBranch color="#F97316" size={30}/>,
+    icon: <GoGitBranch color="#F97316" size={30} />,
     title: "Version Control",
     skills: ["Git", "GitHub"],
   },
   {
-    icon: <GiBrain size={30} color="#A7A546"/>,
-    title: "Languages",
-    skills: ["Python(Matplotlib ,Pandas,Seaborn)", "C++", "Javascript"],
+    icon: <GiBrain size={30} color="#A7A546" />,
+    title: "Programming Languages",
+    skills: ["JavaScript", "Python", "C++"],
   },
   {
-    icon: <AiFillHeart size ={25} color="#9f2626ff"/>,
+    icon: <AiFillHeart size={25} color="#9f2626ff" />,
     title: "Soft Skills",
-    skills: ['Adaptability', 'Problem Solving', 'Team Collaboration'],
+    skills: ["Adaptability", "Problem Solving", "Team Collaboration"],
   },
   {
-    icon: <FiTool color="#F97316" size={30}/>,
-    title: "Tools ",
-    skills: ['VS Code',  'Git',  'GitHub',  'Postman','ERPNext']}
+    icon: <FiTool color="#F97316" size={30} />,
+    title: "Tools & Environment",
+    skills: ["VS Code", "Postman", "Git", "GitHub"],
+  },
 ];
+
 
 function Section3() {
   return (
