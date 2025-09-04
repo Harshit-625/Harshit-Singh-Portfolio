@@ -5,9 +5,17 @@ import study from "../../assets/education.png"
 import dinge from "../../assets/Dinge.png"
 import sync from "../../assets/sync.jpg"
 import sales from "../../assets/Sales.png"
-
+import customerChurn from "../../assets/dash.png"
 
 const projects = [
+  {
+  image: customerChurn,
+  title: "Customer Churn Analysis",
+  link: "https://github.com/Harshit-625/Customer-Churn-Analysis",
+  description:
+    "Performed customer churn analysis by loading and cleaning data in SQL, followed by exploratory analysis using advanced queries. Exported insights into CSV and built an interactive Power BI dashboard to visualize churn drivers, customer demographics, and retention patterns.",
+  tech: ["SQL", "Data Cleaning", "EDA", "CSV", "Power BI"]
+  },
   {
     image: study,
     title: "Higher Education Trends Dashboard",
