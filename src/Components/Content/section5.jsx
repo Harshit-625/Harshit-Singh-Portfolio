@@ -4,6 +4,14 @@ import ExpCard from "./experienceCard";
 
 
 const experiences = [
+      {
+    designation: "Developer and Data Analyst",
+    company: "Jivo Wellness",
+    work: [
+      "Engineered a centralized Django/React operations platform to streamline order management by integrating Amazon, Zepto, and Swiggy into a single interface.",
+      "Architected an automated ETL pipeline migrating SAP HANA data to PostgreSQL, enabling real-time analytics and significantly reducing manual processing time.",
+    ],
+  },
   {
     designation: "Business Analyst Intern",
     company: "Nestorbird",
@@ -22,6 +30,7 @@ const experiences = [
       "Connected forms to backend services, enabling dynamic data capture and validation.",
     ],
   },
+
 ];
 
 
